@@ -13,10 +13,10 @@ validates the decks and rebuilds an Anki package for each one.
 Importing a newer copy of the same deck updates its cards and keeps your review
 history.
 
-**In Hellēnikon:** open the deck's file in `decks/`, use "Download raw file",
-then in Flashcards choose 📤 Import JSON. For now the cards land under
-"uncategorized"; a Deck Library inside the app, reading this repository's
-`index.json`, is planned.
+**In Hellēnikon:** in Flashcards, open 📚 Deck Library and choose Import. The
+deck's cards appear as their own group; words you already have cards for are
+left as they are. Import it again later to pick up cards added since. A deck
+file saved from here can also be opened with 📤 Import JSON.
 
 The index and decks can also be fetched straight from jsDelivr, for example:
 
@@ -46,7 +46,10 @@ field, along with the other app-only fields (`id`, `sourceDocumentId`,
 
 ## Adding a deck
 
-1. Copy `decks/attic-particles.json` to `decks/<your-deck-id>.json` and edit it.
+1. In Hellēnikon, choose Export → "Deck for sharing…", pick the cards, and fill
+   in the deck's details; the file it saves already fits the format below and
+   leaves out everything private. Put it in `decks/`. (Or copy
+   `decks/attic-particles.json` and edit it by hand.)
 2. Run the checker and rebuild the index (Python 3, nothing to install):
 
        python3 tools/decks.py check
