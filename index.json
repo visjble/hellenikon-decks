@@ -1,0 +1,23 @@
+{
+  "format": "hellenikon-deck-index",
+  "version": 1,
+  "decks": [
+    {
+      "id": "attic-particles",
+      "title": "Attic Particles and Connectives",
+      "description": "Fifteen of the small words that hold Attic prose together: connectives, postpositive particles, the two negatives, and two common phrases.",
+      "level": "beginner",
+      "dialect": "Attic",
+      "tags": [
+        "particles",
+        "conjunctions"
+      ],
+      "author": "visjble",
+      "license": "CC-BY-SA-4.0",
+      "source": "Written for this repository; the example sentences are original.",
+      "updated": "2026-10-13",
+      "cards": 15,
+      "file": "decks/attic-particles.json"
+    }
+  ]
+}

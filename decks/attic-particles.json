@@ -1,0 +1,137 @@
+{
+  "format": "hellenikon-deck",
+  "version": 1,
+  "id": "attic-particles",
+  "title": "Attic Particles and Connectives",
+  "description": "Fifteen of the small words that hold Attic prose together: connectives, postpositive particles, the two negatives, and two common phrases.",
+  "language": "grc",
+  "dialect": "Attic",
+  "level": "beginner",
+  "author": "visjble",
+  "license": "CC-BY-SA-4.0",
+  "source": "Written for this repository; the example sentences are original.",
+  "tags": ["particles", "conjunctions"],
+  "updated": "2026-10-13",
+  "cards": [
+    {
+      "greek": "καί",
+      "english": "and; also, even",
+      "lemma": "καί",
+      "part_of_speech": "conjunction",
+      "example_sentence": "ὁ πατὴρ καὶ ὁ υἱός",
+      "example_translation": "the father and the son"
+    },
+    {
+      "greek": "δέ",
+      "english": "and, but (postpositive)",
+      "lemma": "δέ",
+      "part_of_speech": "particle",
+      "example_sentence": "ὁ μὲν λέγει, ὁ δὲ ἀκούει.",
+      "example_translation": "One speaks, the other listens."
+    },
+    {
+      "greek": "μέν",
+      "english": "on the one hand (postpositive; answered by δέ)",
+      "lemma": "μέν",
+      "part_of_speech": "particle",
+      "example_sentence": "οἱ μὲν ἔμενον, οἱ δὲ ἔφευγον.",
+      "example_translation": "Some stayed, others fled."
+    },
+    {
+      "greek": "γάρ",
+      "english": "for, because (postpositive)",
+      "lemma": "γάρ",
+      "part_of_speech": "particle",
+      "example_sentence": "χαίρομεν· νικῶμεν γάρ.",
+      "example_translation": "We rejoice, for we are winning."
+    },
+    {
+      "greek": "οὖν",
+      "english": "therefore, so, then (postpositive)",
+      "lemma": "οὖν",
+      "part_of_speech": "particle",
+      "example_sentence": "τί οὖν ποιῶμεν;",
+      "example_translation": "What then are we to do?"
+    },
+    {
+      "greek": "ἀλλά",
+      "english": "but",
+      "lemma": "ἀλλά",
+      "part_of_speech": "conjunction",
+      "example_sentence": "οὐ φεύγομεν ἀλλὰ μαχόμεθα.",
+      "example_translation": "We are not fleeing but fighting."
+    },
+    {
+      "greek": "τε",
+      "english": "and (enclitic); τε … καί, both … and",
+      "lemma": "τε",
+      "part_of_speech": "particle",
+      "example_sentence": "ἄνδρες τε καὶ γυναῖκες",
+      "example_translation": "both men and women"
+    },
+    {
+      "greek": "γε",
+      "english": "at least, at any rate (enclitic)",
+      "lemma": "γε",
+      "part_of_speech": "particle",
+      "example_sentence": "σύ γε σοφὸς εἶ.",
+      "example_translation": "You at least are wise."
+    },
+    {
+      "greek": "δή",
+      "english": "indeed, of course (stresses the word before it)",
+      "lemma": "δή",
+      "part_of_speech": "particle",
+      "example_sentence": "πάντες δὴ ἴσασιν.",
+      "example_translation": "Everyone, of course, knows."
+    },
+    {
+      "greek": "οὐ",
+      "english": "not (οὐκ before a smooth breathing, οὐχ before a rough one)",
+      "lemma": "οὐ",
+      "part_of_speech": "adverb",
+      "example_sentence": "οὐκ οἶδα.",
+      "example_translation": "I do not know."
+    },
+    {
+      "greek": "μή",
+      "english": "not (with imperatives, subjunctives, infinitives and conditions)",
+      "lemma": "μή",
+      "part_of_speech": "adverb",
+      "example_sentence": "μὴ φοβεῖσθε.",
+      "example_translation": "Do not be afraid."
+    },
+    {
+      "greek": "ὅτι",
+      "english": "that; because",
+      "lemma": "ὅτι",
+      "part_of_speech": "conjunction",
+      "example_sentence": "λέγει ὅτι ἀγαθός ἐστιν.",
+      "example_translation": "He says that he is good."
+    },
+    {
+      "greek": "ἐπεί",
+      "english": "when, since",
+      "lemma": "ἐπεί",
+      "part_of_speech": "conjunction",
+      "example_sentence": "ἐπεὶ ἦλθεν, ἐχαίρομεν.",
+      "example_translation": "When he came, we were glad."
+    },
+    {
+      "greek": "ὡς τάχιστα",
+      "english": "as quickly as possible",
+      "lemma": "ὡς (adv.), τάχιστα (superl. adv. of ταχύς)",
+      "part_of_speech": "phrase",
+      "example_sentence": "ἔλθετε ὡς τάχιστα.",
+      "example_translation": "Come as quickly as possible."
+    },
+    {
+      "greek": "διὰ τί",
+      "english": "why? (lit. on account of what?)",
+      "lemma": "διά (prep. + acc.), τί (interr. pron., neut. acc. sg.)",
+      "part_of_speech": "phrase",
+      "example_sentence": "διὰ τί φεύγεις;",
+      "example_translation": "Why are you fleeing?"
+    }
+  ]
+}

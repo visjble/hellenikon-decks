@@ -1,0 +1,46 @@
+# Every push and pull request: validate the decks and check index.json.
+# Every push to main: rebuild the Anki packages and replace them on the
+# rolling "anki" release, so its download links always give the latest decks.
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install -r requirements.txt
+      - run: python3 tools/decks.py check
+      - run: python3 tools/decks.py apkg
+
+  release:
+    needs: check
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install -r requirements.txt
+      - run: python3 tools/decks.py apkg
+      - name: Upload to the "anki" release
+        run: |
+          gh release view anki >/dev/null 2>&1 ||
+            gh release create anki --title "Anki decks" \
+              --notes "One .apkg per deck, rebuilt on every change. In Anki: File → Import."
+          gh release upload anki build/*.apkg --clobber
