@@ -44,6 +44,11 @@ CARD_FIELDS = CARD_REQUIRED + CARD_OPTIONAL
 GREEK_MAX_WORDS = 3
 EXAMPLE_MAX_WORDS = 12
 
+# Size limits, so one deck stays something a reviewer can read through
+MAX_CARDS = 500
+CARD_FIELD_MAX_CHARS = 300
+DECK_TEXT_MAX_CHARS = {'title': 120, 'description': 500, 'author': 80, 'source': 300}
+
 SLUG = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
 DATE = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 GREEK_LETTER = re.compile(r'[Ͱ-Ͽἀ-῿]')
@@ -84,9 +89,11 @@ def validate(path):
         problems.append(f'"id" must match the file name ("{path.stem}")')
     if not SLUG.match(path.stem):
         problems.append('file name must be lowercase letters, digits and hyphens')
-    for key in ['title', 'description', 'author', 'source']:
+    for key, limit in DECK_TEXT_MAX_CHARS.items():
         if not isinstance(deck[key], str) or not deck[key].strip():
             problems.append(f'"{key}" must be a non-empty string')
+        elif len(deck[key]) > limit:
+            problems.append(f'"{key}" is over {limit} characters')
     if deck['language'] != 'grc':
         problems.append('"language" must be "grc"')
     if deck['level'] not in LEVELS:
@@ -102,6 +109,8 @@ def validate(path):
     cards = deck['cards']
     if not isinstance(cards, list) or not cards:
         return problems + ['"cards" must be a non-empty list']
+    if len(cards) > MAX_CARDS:
+        problems.append(f'{len(cards)} cards: a deck holds at most {MAX_CARDS}; split it')
 
     seen = {}
     for n, card in enumerate(cards, 1):
@@ -121,6 +130,8 @@ def validate(path):
                 problems.append(f'{where}: "{key}" must be a string')
             elif not is_nfc(value):
                 problems.append(f'{where}: "{key}" is not Unicode NFC')
+            elif len(value) > CARD_FIELD_MAX_CHARS:
+                problems.append(f'{where}: "{key}" is over {CARD_FIELD_MAX_CHARS} characters')
 
         greek = card.get('greek')
         if isinstance(greek, str) and greek.strip():

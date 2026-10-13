@@ -55,13 +55,36 @@ field, along with the other app-only fields (`id`, `sourceDocumentId`,
        python3 tools/decks.py check
        python3 tools/decks.py index
 
-3. Commit the deck together with `index.json` and open a pull request.
+3. Commit the deck together with `index.json` and open a pull request, filling
+   in its checklist. A pull request may change only files in `decks/` and
+   `index.json`.
+
+No GitHub account? Email the deck file to the maintainer instead.
 
 To build the Anki packages locally as well:
 
     python3 -m venv .venv
     .venv/bin/pip install -r requirements.txt
     .venv/bin/python tools/decks.py apkg     # writes build/<id>.apkg
+
+## Review
+
+Nothing reaches the Deck Library until the maintainer merges it: the library
+reads this repository's `main` branch. Before that, every pull request is
+checked automatically:
+
+- `tools/decks.py check` (workflow `build`) checks the format, the fields and
+  the limits below;
+- workflow `scope` fails a pull request that touches anything besides
+  `decks/*.json` and `index.json`. It runs from `main`, so a pull request
+  cannot change it.
+
+What no script can judge, the maintainer reads for: whether the Greek and the
+grammar are right, and that nothing was copied from a copyrighted book.
+
+**Found a mistake in a deck?** Use "Report a problem" under the deck in
+Hellēnikon's Deck Library, or [open an issue](../../issues/new). A deck taken
+out of the library can still be served by jsDelivr's cache for up to 12 hours.
 
 ## Deck format (`hellenikon-deck`, version 1)
 
@@ -73,17 +96,17 @@ existing Import JSON already reads it.
 | `format` | yes | `"hellenikon-deck"` |
 | `version` | yes | `1` |
 | `id` | yes | Same as the file name: lowercase letters, digits, hyphens |
-| `title` | yes | |
-| `description` | yes | One or two sentences |
+| `title` | yes | At most 120 characters |
+| `description` | yes | One or two sentences; at most 500 characters |
 | `language` | yes | `"grc"` |
 | `dialect` | no | e.g. `"Attic"`, `"Ionic"`, `"Koine"` |
 | `level` | yes | `beginner`, `intermediate` or `advanced` |
-| `author` | yes | |
+| `author` | yes | At most 80 characters |
 | `license` | yes | `"CC-BY-SA-4.0"` |
-| `source` | yes | Where the material comes from, e.g. "Original" or "Vocabulary of Xenophon, Anabasis 1.1–1.3" |
+| `source` | yes | Where the material comes from, e.g. "Original" or "Vocabulary of Xenophon, Anabasis 1.1–1.3"; at most 300 characters |
 | `tags` | no | List of lowercase-hyphenated words |
 | `updated` | yes | `YYYY-MM-DD` |
-| `cards` | yes | At least one card |
+| `cards` | yes | 1 to 500 cards |
 
 | Card field | Required | Notes |
 |---|---|---|
@@ -95,7 +118,7 @@ existing Import JSON already reads it.
 | `example_sentence` | no | At most 12 words; needs `example_translation` |
 | `example_translation` | no | Needs `example_sentence` |
 
-All text must be Unicode NFC, and no two cards in a deck may have the same
+Every card field is at most 300 characters. All text must be Unicode NFC, and no two cards in a deck may have the same
 `greek` (ignoring case).
 
 ## License

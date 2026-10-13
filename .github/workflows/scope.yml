@@ -1,0 +1,39 @@
+# A contributor's pull request may change decks and the index, nothing else.
+#
+# This runs on pull_request_target, so GitHub always runs the copy of this file
+# on main: a pull request cannot edit or delete the check it is being held to.
+# For the same reason it must never check out or run the pull request's code;
+# it only asks GitHub for the list of files the pull request touches.
+#
+# The owner's own pull requests skip it (a skipped job counts as passing), so
+# the tools and workflows can still be changed.
+name: scope
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  scope:
+    if: github.event.pull_request.author_association != 'OWNER'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Only decks/*.json and index.json may change
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          # A rename counts under both its old and new names
+          outside=$(gh api --paginate "repos/$GITHUB_REPOSITORY/pulls/$PR/files" \
+              --jq '.[] | .filename, (.previous_filename // empty)' \
+            | grep -vE '^(decks/[a-z0-9-]+\.json|index\.json)$' || true)
+          if [ -n "$outside" ]; then
+            echo "This pull request changes files outside decks/ and index.json:"
+            echo "$outside"
+            echo "Deck contributions may only add or edit deck files and index.json."
+            exit 1
+          fi
+          echo "Only deck files and index.json change."
