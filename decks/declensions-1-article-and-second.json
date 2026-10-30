@@ -343,6 +343,15 @@
       "gender": "feminine"
     },
     {
+      "greek": "ὦ ὁδέ",
+      "english": "O road! · voc. sg.",
+      "lemma": "ὁδός, -οῦ, ἡ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "vocative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
       "greek": "αἱ ὁδοί",
       "english": "the roads · nom. pl.",
       "lemma": "ὁδός, -οῦ, ἡ",
