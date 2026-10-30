@@ -1,0 +1,363 @@
+{
+  "format": "hellenikon-deck",
+  "version": 1,
+  "id": "declensions-3-third",
+  "title": "Declensions 3: The Third Declension",
+  "description": "Five common third-declension types, with the article: φύλαξ (consonant stem), σῶμα (neuter in -μα), πόλις (ι stem), βασιλεύς (ευ stem) and γένος (neuter in -ος).",
+  "language": "grc",
+  "dialect": "Attic",
+  "level": "beginner",
+  "author": "Suasor",
+  "license": "CC-BY-SA-4.0",
+  "source": "Written for this repository: the standard Attic paradigms, as given in Smyth's Greek Grammar.",
+  "tags": [
+    "declensions",
+    "nouns",
+    "third-declension"
+  ],
+  "updated": "2026-10-30",
+  "cards": [
+    {
+      "greek": "ὁ φύλαξ",
+      "english": "the guard · nom. sg.",
+      "lemma": "φύλαξ, -ακος, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῦ φύλακος",
+      "english": "of the guard · gen. sg.",
+      "lemma": "φύλαξ, -ακος, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῷ φύλακι",
+      "english": "to/for the guard · dat. sg.",
+      "lemma": "φύλαξ, -ακος, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τὸν φύλακα",
+      "english": "the guard · acc. sg.",
+      "lemma": "φύλαξ, -ακος, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "οἱ φύλακες",
+      "english": "the guards · nom. pl.",
+      "lemma": "φύλαξ, -ακος, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῶν φυλάκων",
+      "english": "of the guards · gen. pl.",
+      "lemma": "φύλαξ, -ακος, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῖς φύλαξι(ν)",
+      "english": "to/for the guards · dat. pl.",
+      "lemma": "φύλαξ, -ακος, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοὺς φύλακας",
+      "english": "the guards · acc. pl.",
+      "lemma": "φύλαξ, -ακος, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τὸ σῶμα",
+      "english": "the body · nom./acc. sg.",
+      "lemma": "σῶμα, -ατος, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative/accusative",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τοῦ σώματος",
+      "english": "of the body · gen. sg.",
+      "lemma": "σῶμα, -ατος, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τῷ σώματι",
+      "english": "to/for the body · dat. sg.",
+      "lemma": "σῶμα, -ατος, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τὰ σώματα",
+      "english": "the bodies · nom./acc. pl.",
+      "lemma": "σῶμα, -ατος, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative/accusative",
+      "number": "plural",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τῶν σωμάτων",
+      "english": "of the bodies · gen. pl.",
+      "lemma": "σῶμα, -ατος, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τοῖς σώμασι(ν)",
+      "english": "to/for the bodies · dat. pl.",
+      "lemma": "σῶμα, -ατος, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "neuter"
+    },
+    {
+      "greek": "ἡ πόλις",
+      "english": "the city · nom. sg.",
+      "lemma": "πόλις, -εως, ἡ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῆς πόλεως",
+      "english": "of the city · gen. sg.",
+      "lemma": "πόλις, -εως, ἡ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῇ πόλει",
+      "english": "to/for the city · dat. sg.",
+      "lemma": "πόλις, -εως, ἡ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὴν πόλιν",
+      "english": "the city · acc. sg.",
+      "lemma": "πόλις, -εως, ἡ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ὦ πόλι",
+      "english": "O city! · voc. sg.",
+      "lemma": "πόλις, -εως, ἡ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "vocative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "αἱ πόλεις",
+      "english": "the cities · nom. pl.",
+      "lemma": "πόλις, -εως, ἡ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῶν πόλεων",
+      "english": "of the cities · gen. pl.",
+      "lemma": "πόλις, -εως, ἡ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ταῖς πόλεσι(ν)",
+      "english": "to/for the cities · dat. pl.",
+      "lemma": "πόλις, -εως, ἡ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὰς πόλεις",
+      "english": "the cities · acc. pl.",
+      "lemma": "πόλις, -εως, ἡ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ὁ βασιλεύς",
+      "english": "the king · nom. sg.",
+      "lemma": "βασιλεύς, -έως, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῦ βασιλέως",
+      "english": "of the king · gen. sg.",
+      "lemma": "βασιλεύς, -έως, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῷ βασιλεῖ",
+      "english": "to/for the king · dat. sg.",
+      "lemma": "βασιλεύς, -έως, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τὸν βασιλέα",
+      "english": "the king · acc. sg.",
+      "lemma": "βασιλεύς, -έως, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "ὦ βασιλεῦ",
+      "english": "O king! · voc. sg.",
+      "lemma": "βασιλεύς, -έως, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "vocative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "οἱ βασιλῆς",
+      "english": "the kings · nom. pl. (later Attic βασιλεῖς)",
+      "lemma": "βασιλεύς, -έως, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῶν βασιλέων",
+      "english": "of the kings · gen. pl.",
+      "lemma": "βασιλεύς, -έως, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῖς βασιλεῦσι(ν)",
+      "english": "to/for the kings · dat. pl.",
+      "lemma": "βασιλεύς, -έως, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοὺς βασιλέας",
+      "english": "the kings · acc. pl.",
+      "lemma": "βασιλεύς, -έως, ὁ",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τὸ γένος",
+      "english": "the family · nom./acc. sg.",
+      "lemma": "γένος, -ους, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative/accusative",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τοῦ γένους",
+      "english": "of the family · gen. sg.",
+      "lemma": "γένος, -ους, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τῷ γένει",
+      "english": "to/for the family · dat. sg.",
+      "lemma": "γένος, -ους, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τὰ γένη",
+      "english": "the families · nom./acc. pl.",
+      "lemma": "γένος, -ους, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "nominative/accusative",
+      "number": "plural",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τῶν γενῶν",
+      "english": "of the families · gen. pl.",
+      "lemma": "γένος, -ους, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τοῖς γένεσι(ν)",
+      "english": "to/for the families · dat. pl.",
+      "lemma": "γένος, -ους, τό",
+      "part_of_speech": "noun, 3rd declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "neuter"
+    }
+  ]
+}

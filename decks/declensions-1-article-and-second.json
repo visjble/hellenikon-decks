@@ -1,0 +1,382 @@
+{
+  "format": "hellenikon-deck",
+  "version": 1,
+  "id": "declensions-1-article-and-second",
+  "title": "Declensions 1: The Article and the Second Declension",
+  "description": "Every form of the article ὁ ἡ τό, then λόγος (masculine), δῶρον (neuter) and ὁδός (feminine) in each case and number, with the article.",
+  "language": "grc",
+  "dialect": "Attic",
+  "level": "beginner",
+  "author": "Suasor",
+  "license": "CC-BY-SA-4.0",
+  "source": "Written for this repository: the standard Attic paradigms, as given in Smyth's Greek Grammar.",
+  "tags": [
+    "declensions",
+    "nouns",
+    "article",
+    "second-declension"
+  ],
+  "updated": "2026-10-30",
+  "cards": [
+    {
+      "greek": "ὁ",
+      "english": "the · nom. sg. masc.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "ἡ",
+      "english": "the · nom. sg. fem.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τό",
+      "english": "the · nom./acc. sg. neut.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "nominative/accusative",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τοῦ",
+      "english": "the · gen. sg. masc./neut.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "masculine/neuter"
+    },
+    {
+      "greek": "τῆς",
+      "english": "the · gen. sg. fem.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῷ",
+      "english": "the · dat. sg. masc./neut.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "dative",
+      "number": "singular",
+      "gender": "masculine/neuter"
+    },
+    {
+      "greek": "τῇ",
+      "english": "the · dat. sg. fem.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "dative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τόν",
+      "english": "the · acc. sg. masc.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τήν",
+      "english": "the · acc. sg. fem.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "οἱ",
+      "english": "the · nom. pl. masc.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "αἱ",
+      "english": "the · nom. pl. fem.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τά",
+      "english": "the · nom./acc. pl. neut.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "nominative/accusative",
+      "number": "plural",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τῶν",
+      "english": "the · gen. pl. masc./fem./neut.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "masculine/feminine/neuter"
+    },
+    {
+      "greek": "τοῖς",
+      "english": "the · dat. pl. masc./neut.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "dative",
+      "number": "plural",
+      "gender": "masculine/neuter"
+    },
+    {
+      "greek": "ταῖς",
+      "english": "the · dat. pl. fem.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "dative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τούς",
+      "english": "the · acc. pl. masc.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τάς",
+      "english": "the · acc. pl. fem.",
+      "lemma": "ὁ, ἡ, τό",
+      "part_of_speech": "definite article",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ὁ λόγος",
+      "english": "the word · nom. sg.",
+      "lemma": "λόγος, -ου, ὁ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῦ λόγου",
+      "english": "of the word · gen. sg.",
+      "lemma": "λόγος, -ου, ὁ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῷ λόγῳ",
+      "english": "to/for the word · dat. sg.",
+      "lemma": "λόγος, -ου, ὁ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τὸν λόγον",
+      "english": "the word · acc. sg.",
+      "lemma": "λόγος, -ου, ὁ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "ὦ λόγε",
+      "english": "O word! · voc. sg.",
+      "lemma": "λόγος, -ου, ὁ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "vocative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "οἱ λόγοι",
+      "english": "the words · nom. pl.",
+      "lemma": "λόγος, -ου, ὁ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῶν λόγων",
+      "english": "of the words · gen. pl.",
+      "lemma": "λόγος, -ου, ὁ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῖς λόγοις",
+      "english": "to/for the words · dat. pl.",
+      "lemma": "λόγος, -ου, ὁ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοὺς λόγους",
+      "english": "the words · acc. pl.",
+      "lemma": "λόγος, -ου, ὁ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τὸ δῶρον",
+      "english": "the gift · nom./acc. sg.",
+      "lemma": "δῶρον, -ου, τό",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "nominative/accusative",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τοῦ δώρου",
+      "english": "of the gift · gen. sg.",
+      "lemma": "δῶρον, -ου, τό",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τῷ δώρῳ",
+      "english": "to/for the gift · dat. sg.",
+      "lemma": "δῶρον, -ου, τό",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τὰ δῶρα",
+      "english": "the gifts · nom./acc. pl.",
+      "lemma": "δῶρον, -ου, τό",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "nominative/accusative",
+      "number": "plural",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τῶν δώρων",
+      "english": "of the gifts · gen. pl.",
+      "lemma": "δῶρον, -ου, τό",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "neuter"
+    },
+    {
+      "greek": "τοῖς δώροις",
+      "english": "to/for the gifts · dat. pl.",
+      "lemma": "δῶρον, -ου, τό",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "neuter"
+    },
+    {
+      "greek": "ἡ ὁδός",
+      "english": "the road · nom. sg.",
+      "lemma": "ὁδός, -οῦ, ἡ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῆς ὁδοῦ",
+      "english": "of the road · gen. sg.",
+      "lemma": "ὁδός, -οῦ, ἡ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῇ ὁδῷ",
+      "english": "to/for the road · dat. sg.",
+      "lemma": "ὁδός, -οῦ, ἡ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὴν ὁδόν",
+      "english": "the road · acc. sg.",
+      "lemma": "ὁδός, -οῦ, ἡ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "αἱ ὁδοί",
+      "english": "the roads · nom. pl.",
+      "lemma": "ὁδός, -οῦ, ἡ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῶν ὁδῶν",
+      "english": "of the roads · gen. pl.",
+      "lemma": "ὁδός, -οῦ, ἡ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ταῖς ὁδοῖς",
+      "english": "to/for the roads · dat. pl.",
+      "lemma": "ὁδός, -οῦ, ἡ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὰς ὁδούς",
+      "english": "the roads · acc. pl.",
+      "lemma": "ὁδός, -οῦ, ἡ",
+      "part_of_speech": "noun, 2nd declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "feminine"
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "format": "hellenikon-deck",
+  "version": 1,
+  "id": "declensions-2-first",
+  "title": "Declensions 2: The First Declension",
+  "description": "The five patterns of the first declension, with the article: χώρα (long α), θάλαττα (short α), τιμή (η), and the masculines πολίτης and νεανίας.",
+  "language": "grc",
+  "dialect": "Attic",
+  "level": "beginner",
+  "author": "Suasor",
+  "license": "CC-BY-SA-4.0",
+  "source": "Written for this repository: the standard Attic paradigms, as given in Smyth's Greek Grammar.",
+  "tags": [
+    "declensions",
+    "nouns",
+    "first-declension"
+  ],
+  "updated": "2026-10-30",
+  "cards": [
+    {
+      "greek": "ἡ χώρα",
+      "english": "the land · nom. sg.",
+      "lemma": "χώρα, -ας, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῆς χώρας",
+      "english": "of the land · gen. sg.",
+      "lemma": "χώρα, -ας, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῇ χώρᾳ",
+      "english": "to/for the land · dat. sg.",
+      "lemma": "χώρα, -ας, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὴν χώραν",
+      "english": "the land · acc. sg.",
+      "lemma": "χώρα, -ας, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "αἱ χῶραι",
+      "english": "the lands · nom. pl.",
+      "lemma": "χώρα, -ας, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῶν χωρῶν",
+      "english": "of the lands · gen. pl.",
+      "lemma": "χώρα, -ας, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ταῖς χώραις",
+      "english": "to/for the lands · dat. pl.",
+      "lemma": "χώρα, -ας, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὰς χώρας",
+      "english": "the lands · acc. pl.",
+      "lemma": "χώρα, -ας, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ἡ θάλαττα",
+      "english": "the sea · nom. sg.",
+      "lemma": "θάλαττα, -ης, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῆς θαλάττης",
+      "english": "of the sea · gen. sg.",
+      "lemma": "θάλαττα, -ης, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῇ θαλάττῃ",
+      "english": "to/for the sea · dat. sg.",
+      "lemma": "θάλαττα, -ης, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὴν θάλατταν",
+      "english": "the sea · acc. sg.",
+      "lemma": "θάλαττα, -ης, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "αἱ θάλατται",
+      "english": "the seas · nom. pl.",
+      "lemma": "θάλαττα, -ης, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῶν θαλαττῶν",
+      "english": "of the seas · gen. pl.",
+      "lemma": "θάλαττα, -ης, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ταῖς θαλάτταις",
+      "english": "to/for the seas · dat. pl.",
+      "lemma": "θάλαττα, -ης, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὰς θαλάττας",
+      "english": "the seas · acc. pl.",
+      "lemma": "θάλαττα, -ης, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ἡ τιμή",
+      "english": "the honour · nom. sg.",
+      "lemma": "τιμή, -ῆς, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῆς τιμῆς",
+      "english": "of the honour · gen. sg.",
+      "lemma": "τιμή, -ῆς, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῇ τιμῇ",
+      "english": "to/for the honour · dat. sg.",
+      "lemma": "τιμή, -ῆς, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὴν τιμήν",
+      "english": "the honour · acc. sg.",
+      "lemma": "τιμή, -ῆς, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "feminine"
+    },
+    {
+      "greek": "αἱ τιμαί",
+      "english": "the honours · nom. pl.",
+      "lemma": "τιμή, -ῆς, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τῶν τιμῶν",
+      "english": "of the honours · gen. pl.",
+      "lemma": "τιμή, -ῆς, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ταῖς τιμαῖς",
+      "english": "to/for the honours · dat. pl.",
+      "lemma": "τιμή, -ῆς, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "τὰς τιμάς",
+      "english": "the honours · acc. pl.",
+      "lemma": "τιμή, -ῆς, ἡ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "feminine"
+    },
+    {
+      "greek": "ὁ πολίτης",
+      "english": "the citizen · nom. sg.",
+      "lemma": "πολίτης, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῦ πολίτου",
+      "english": "of the citizen · gen. sg.",
+      "lemma": "πολίτης, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῷ πολίτῃ",
+      "english": "to/for the citizen · dat. sg.",
+      "lemma": "πολίτης, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τὸν πολίτην",
+      "english": "the citizen · acc. sg.",
+      "lemma": "πολίτης, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "ὦ πολῖτα",
+      "english": "O citizen! · voc. sg.",
+      "lemma": "πολίτης, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "vocative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "οἱ πολῖται",
+      "english": "the citizens · nom. pl.",
+      "lemma": "πολίτης, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῶν πολιτῶν",
+      "english": "of the citizens · gen. pl.",
+      "lemma": "πολίτης, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῖς πολίταις",
+      "english": "to/for the citizens · dat. pl.",
+      "lemma": "πολίτης, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοὺς πολίτας",
+      "english": "the citizens · acc. pl.",
+      "lemma": "πολίτης, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "ὁ νεανίας",
+      "english": "the young man · nom. sg.",
+      "lemma": "νεανίας, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῦ νεανίου",
+      "english": "of the young man · gen. sg.",
+      "lemma": "νεανίας, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῷ νεανίᾳ",
+      "english": "to/for the young man · dat. sg.",
+      "lemma": "νεανίας, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τὸν νεανίαν",
+      "english": "the young man · acc. sg.",
+      "lemma": "νεανίας, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "ὦ νεανία",
+      "english": "O young man! · voc. sg.",
+      "lemma": "νεανίας, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "vocative",
+      "number": "singular",
+      "gender": "masculine"
+    },
+    {
+      "greek": "οἱ νεανίαι",
+      "english": "the young men · nom. pl.",
+      "lemma": "νεανίας, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "nominative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τῶν νεανιῶν",
+      "english": "of the young men · gen. pl.",
+      "lemma": "νεανίας, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "genitive",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοῖς νεανίαις",
+      "english": "to/for the young men · dat. pl.",
+      "lemma": "νεανίας, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "dative",
+      "number": "plural",
+      "gender": "masculine"
+    },
+    {
+      "greek": "τοὺς νεανίας",
+      "english": "the young men · acc. pl.",
+      "lemma": "νεανίας, -ου, ὁ",
+      "part_of_speech": "noun, 1st declension",
+      "case": "accusative",
+      "number": "plural",
+      "gender": "masculine"
+    }
+  ]
+}

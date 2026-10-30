@@ -18,6 +18,61 @@
       "updated": "2026-10-13",
       "cards": 15,
       "file": "decks/attic-particles.json"
+    },
+    {
+      "id": "declensions-1-article-and-second",
+      "title": "Declensions 1: The Article and the Second Declension",
+      "description": "Every form of the article ὁ ἡ τό, then λόγος (masculine), δῶρον (neuter) and ὁδός (feminine) in each case and number, with the article.",
+      "level": "beginner",
+      "dialect": "Attic",
+      "tags": [
+        "declensions",
+        "nouns",
+        "article",
+        "second-declension"
+      ],
+      "author": "Suasor",
+      "license": "CC-BY-SA-4.0",
+      "source": "Written for this repository: the standard Attic paradigms, as given in Smyth's Greek Grammar.",
+      "updated": "2026-10-30",
+      "cards": 40,
+      "file": "decks/declensions-1-article-and-second.json"
+    },
+    {
+      "id": "declensions-2-first",
+      "title": "Declensions 2: The First Declension",
+      "description": "The five patterns of the first declension, with the article: χώρα (long α), θάλαττα (short α), τιμή (η), and the masculines πολίτης and νεανίας.",
+      "level": "beginner",
+      "dialect": "Attic",
+      "tags": [
+        "declensions",
+        "nouns",
+        "first-declension"
+      ],
+      "author": "Suasor",
+      "license": "CC-BY-SA-4.0",
+      "source": "Written for this repository: the standard Attic paradigms, as given in Smyth's Greek Grammar.",
+      "updated": "2026-10-30",
+      "cards": 42,
+      "file": "decks/declensions-2-first.json"
+    },
+    {
+      "id": "declensions-3-third",
+      "title": "Declensions 3: The Third Declension",
+      "description": "Five common third-declension types, with the article: φύλαξ (consonant stem), σῶμα (neuter in -μα), πόλις (ι stem), βασιλεύς (ευ stem) and γένος (neuter in -ος).",
+      "level": "beginner",
+      "dialect": "Attic",
+      "tags": [
+        "declensions",
+        "nouns",
+        "third-declension"
+      ],
+      "author": "Suasor",
+      "license": "CC-BY-SA-4.0",
+      "source": "Written for this repository: the standard Attic paradigms, as given in Smyth's Greek Grammar.",
+      "updated": "2026-10-30",
+      "cards": 38,
+      "file": "decks/declensions-3-third.json"
     }
   ]
 }
